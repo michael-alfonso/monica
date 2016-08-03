@@ -30,7 +30,7 @@ body{
 	 background-color:#f1f1f1 !important;
 	 position:relative;
 	 font:12px/22px arial;
-	 color:#5b5b5b;
+	 color:#292936;
 	}
 img{
 	margin:0;
@@ -249,11 +249,11 @@ a.read-more:hover {
 	}
 .header{
 	position: fixed !important;
-	 z-index:99999;
+	 z-index:999;
 	 width:100%;
 	  height:auto;
 	 padding:12px 0;
-	 background-color: #5b5b5b;
+	 background-color: #292936;
 	}
 .header .header-inner .nav{
 	margin:0;
@@ -276,7 +276,7 @@ a.read-more:hover {
 	 position:relative;
 	}
 .header .header-inner .nav ul li a:hover{
-	color: #ee5501 !important;
+	color: #d74516 !important;
 }
 .header .header-inner .nav ul li a{
 	color:#f1f1f1;
@@ -332,7 +332,7 @@ a.read-more:hover {
 	 -webkit-box-shadow: 0 0 5px 0 #bdbdbd;
 	 box-shadow: 0 0 5px 0 #bdbdbd;
 	 top: -35px;
-	 z-index:9999;
+	 z-index:99;
 	 background-color:#fff;
 	}
 #services-box:nth-of-type(4) {
@@ -411,7 +411,7 @@ a.read-more:hover {
 .copyright-wrapper {
 	position:relative;
 	 padding:20px 0;
-	 background-color:#5b5b5b;
+	 background-color:#292936;
 	}
 .copyright-wrapper .inner{width:1170px;
 	 margin: auto;
@@ -433,7 +433,7 @@ a.read-more:hover {
 	 text-transform:uppercase;
 	}
 .footer-menu ul li a:hover{
-	color:#ee5501;
+	color:#d74516;
 	}
 .footer-menu ul ul{
 	display:none;
@@ -529,7 +529,7 @@ h1.entry-title, h1.page-title{
 	padding-bottom:20px;
 	 font-size:30px;
 	 text-transform:uppercase;
-	 color: #ee5501;
+	 color: #d74516;
 	}
 article.tag-sticky-2{
 	background:#f6f6f6;
@@ -745,4 +745,38 @@ input:focus {
 	-ms-box-shadow: 0px 0px 9px 0px rgba(20,20,20,0.5);
 	-o-box-shadow: 0px 0px 9px 0px rgba(20,20,20,0.5);
 	box-shadow: 0px 0px 9px 0px rgba(20,20,20,0.5);
+}
+
+.fullrow{
+	margin-top: -100px;
+background-color: #d74516;
+position: relative;
+padding: 35px;
+margin-bottom: 40px;
+box-shadow: 0 0 9px 0 #3d3d3d inset;
+
+}
+.fullrow p,
+.fullrow a,
+.fullrow span,
+.fullrow b{
+	color: #ffffff !important;
+	font-weight: 400 !important;
+	line-height: 1.3 !important;
+}
+.fullrow::after,
+.fullrow::before{
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	background-color: #d74516;
+	display: block;
+	left: -98%;
+	box-shadow: 20px 0 9px 0 #3d3d3d inset;
+}
+.fullrow::after{
+	left: 98%;
+	box-shadow: -20px 0 9px 0 #3d3d3d inset;
 }
